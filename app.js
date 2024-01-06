@@ -135,7 +135,7 @@ var taskCompleted=function(){
 
 var taskIncomplete=function(){
   console.log("Incomplete Task...");
-//Mark task as incomplete.
+  //Mark task as incomplete.
   //When the checkbox is unchecked
   //Append the task list item to the #incomplete-Tasks.
   var listItem=this.parentNode;
@@ -160,7 +160,7 @@ addButton.addEventListener("click",ajaxRequest);
 
 var bindTaskEvents=function(taskListItem,checkBoxEventHandler){
   console.log("bind list item events");
-//select ListItems children
+  //select ListItems children
   var checkBox=taskListItem.querySelector(".task-checkbox");
   var editButton=taskListItem.querySelector(".edit");
   var deleteButton=taskListItem.querySelector(".delete");
